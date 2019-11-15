@@ -104,7 +104,7 @@ Acknowledgements
 [5]: https://github.com/jcjohnson/densecap
 [6]: https://allennlp.org/elmo
 [7]: https://github.com/stanfordnlp/GloVe
-[8]: https://github.com/JXZe/DualVD/visdialch/utils/checkpointing.py
+[8]: https://github.com/JXZe/DualVD/blob/master/visdialch/utils/checkpointing.py
 [9]: https://www.github.com/lanpa/tensorboardX
 [10]: https://github.com/batra-mlp-lab/visdial-challenge-starter-pytorch
 
