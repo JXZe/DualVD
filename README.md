@@ -69,7 +69,7 @@ The code have an `--overfit` flag, which can be useful for rapid debugging. It t
 
 ### Saving model checkpoints
 
-This script will save model checkpoints at every epoch as per path specified by `--save-dirpath`. Refer 待定[visdialch/utils/checkpointing.py][8] for more details on how checkpointing is managed.
+This script will save model checkpoints at every epoch as per path specified by `--save-dirpath`. Refer [visdialch/utils/checkpointing.py][8] for more details on how checkpointing is managed.
 
 ### Logging
 
