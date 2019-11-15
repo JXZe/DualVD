@@ -1,0 +1,59 @@
+# Dataset reader arguments
+dataset:
+  image_features_train_h5: 'data/train.h5'
+  image_features_val_h5: 'data/val.h5'
+  image_features_test_h5: 'data/test.h5'
+  word_counts_json: 'data/visdial_1.0_word_counts_train.json'
+  elmopath: 'data/elmo.json'
+  glovepath: 'data/glove.json'
+
+  img_norm: 1
+  concat_history: true
+  max_sequence_length: 20
+  vocab_min_count: 5
+
+  caption_round_num: 6
+  caption_maxlen_each: 14
+
+
+# Model related arguments
+model:
+  encoder: 'lf'
+  decoder: 'disc'
+
+  img_feature_size: 2048
+  word_embedding_size: 300
+  lstm_hidden_size: 512
+  lstm_num_layers: 2
+  dropout: 0.5
+
+  glove_embedding_size: 300
+  elmo_embedding_size: 1024
+
+  caption_word_size_out1: 256
+  caption_lstm_numlayers_1: 2
+  captionsize_todecoder: 512
+
+
+  relation_dims: 512
+  relation_change_num: 128
+
+
+  ques_change_num: 256
+  caption_change_num: 256
+
+
+# Optimization related arguments
+solver:
+  batch_size: 50
+  num_epochs: 16
+  initial_lr: 0.001
+  training_splits: "train"  # "trainval"
+  lr_gamma: 0.1
+  lr_milestones:
+    - 5
+    - 7
+    - 10
+  warmup_factor: 0.3
+  warmup_epochs: 1
+  eta_min: 0.00034
