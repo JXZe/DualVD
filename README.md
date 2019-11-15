@@ -2,7 +2,7 @@ DualVD: An Adaptive Dual Encoding Model for Deep Visual Understanding in Visual 
 ====================================
 
 
-![alt text](image/result_visual.png)
+![alt text](image/visual_result.png)
 <p align="center">Example results from the VisDial v1.0 validation dataset.</p>
 
 
@@ -19,12 +19,13 @@ This is a PyTorch implementation for [DualVD: An Adaptive Dual Encoding Model fo
 If you use this code in your research, please consider citing:
 
 ```text
-@misc{xiaoze2019daulvd,
-  author =       {Jaing, Xiaoze and Yu, Jing and Qin, Zengchang and Zhuang, Yingying and Zhang Xingxing and Hu, Yue and Wu, Qi},
-  title =        {DualVD PyTorch Code},
-  howpublished = {\url{https://github.com/batra-mlp-lab/visdial-challenge-starter-pytorch}},
-  year =         {2019}
+@inproceedings{jiang2019daulvd,
+  title =  {DualVD: An Adaptive Dual Encoding Model for Deep Visual Understanding in Visual Dialogue},
+  author = {Jiang, Xiaoze and Yu, Jing and Qin, Zengchang and Zhuang, Yingying and Zhang, Xingxing and Hu, Yue and Wu, Qi},
+  year =  {2020},
+  booktitle = {AAAI}
 }
+
 ```
 
 
