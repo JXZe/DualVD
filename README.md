@@ -25,7 +25,6 @@ If you use this code in your research, please consider citing:
   year =  {2020},
   booktitle = {AAAI}
 }
-
 ```
 
 
