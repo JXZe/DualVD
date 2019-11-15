@@ -35,7 +35,7 @@ This code is implemented using PyTorch v1.0, and provides out of the box support
 ```sh
 conda create -n visdialch python=3.6
 conda activate visdialch  # activate the environment and install all dependencies
-cd DualVD-pytorch/
+cd DualVD/
 pip install -r requirements.txt
 ```
 
