@@ -7,7 +7,7 @@ DualVD: An Adaptive Dual Encoding Model for Deep Visual Understanding in Visual 
 
 
 
-This is a PyTorch implementation for [DualVD: An Adaptive Dual Encoding Model for Deep Visual Understanding in Visual Dialogue, AAAI2020](https://arxiv.org/abs/1804.10660).
+This is a PyTorch implementation for [DualVD: An Adaptive Dual Encoding Model for Deep Visual Understanding in Visual Dialogue, AAAI2020](https://arxiv.org/abs/1911.07251).
 
 
   * [Requirements](#Requirements)
