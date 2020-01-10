@@ -19,7 +19,7 @@ This is a PyTorch implementation for [DualVD: An Adaptive Dual Encoding Model fo
 If you use this code in your research, please consider citing:
 
 ```text
-@inproceedings{jiang2019daulvd,
+@inproceedings{jiang2019dualvd,
   title =  {DualVD: An Adaptive Dual Encoding Model for Deep Visual Understanding in Visual Dialogue},
   author = {Xiaoze, Jiang and Jing, Yu and Zengchang, Qin and Yingying, Zhuang and Xingxing, Zhang and Yue, Hu and Qi, Wu},
   year =  {2020},
