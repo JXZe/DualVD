@@ -21,7 +21,7 @@ If you use this code in your research, please consider citing:
 ```text
 @inproceedings{jiang2019dualvd,
   title =  {DualVD: An Adaptive Dual Encoding Model for Deep Visual Understanding in Visual Dialogue},
-  author = {Xiaoze, Jiang and Jing, Yu and Zengchang, Qin and Yingying, Zhuang and Xingxing, Zhang and Yue, Hu and Qi, Wu},
+  author =  {Jiang, Xiaoze and Yu, Jing and Qin, Zengchang and Zhuang, Yingying and Zhang, Xingxing and Hu, Yue and Wu, Qi},
   year =  {2020},
   booktitle = {AAAI}
 }
