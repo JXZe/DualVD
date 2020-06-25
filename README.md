@@ -23,7 +23,8 @@ If you use this code in your research, please consider citing:
   title =  {DualVD: An Adaptive Dual Encoding Model for Deep Visual Understanding in Visual Dialogue},
   author =  {Jiang, Xiaoze and Yu, Jing and Qin, Zengchang and Zhuang, Yingying and Zhang, Xingxing and Hu, Yue and Wu, Qi},
   year =  {2020},
-  booktitle = {AAAI}
+  pages = {11125--11132},
+  booktitle = {Proceedings of the Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20)}
 }
 ```
 
