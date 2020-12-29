@@ -165,7 +165,7 @@ class Semantic(nn.Module):
                 lo_cap = torch.cat((lo_cap, caption[i][1:].view(-1, dim)), 0)
         gl_cap = gl_cap.view(-1, dim)
         lo_cap = lo_cap.view(-1, local_num, dim)
-        lo_cap = torch.sum(lo_cap, 0)
+        lo_cap = torch.sum(lo_cap, 1)
         return gl_cap, lo_cap
 
 
