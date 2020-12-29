@@ -72,7 +72,7 @@ class Visual(nn.Module):
             1, 1, self.config["img_feature_size"]
         )
 
-        attended_image_features = (image_attention_weights * img).sum(0)
+        attended_image_features = (image_attention_weights * img).sum(1)
         visul = attended_image_features
 
 
